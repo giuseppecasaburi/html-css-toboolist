@@ -9,7 +9,7 @@
 /* caratteristiche comuni */
 body{
     background-color: rgb(211, 211, 211);
-    font-size: 22px;
+    font-size: 20px;
 }
 /* /caratteristiche comuni */
 
@@ -25,7 +25,7 @@ body{
 
 .container.main{
     margin-top: 0%;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .header{
@@ -44,14 +44,11 @@ body{
     vertical-align: middle;
 }
 
-
-
 .button{
-    font-size: 22px;
-    padding: 12px 18px;
+    font-size: 20px;
+    padding: 8px 14px;
     border-radius: 5px;
     border: 0;
-    
 }
 
 #task{
@@ -63,13 +60,25 @@ body{
     color: gray;
 }
 
-.base li{
+li{
     list-style: none;
 }
 
+ul{
+    padding: 0px;
+}
+
 .importante{
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 800;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+li.prima{
+    margin-top: 5px;
 }
 
 .spunta{
@@ -80,7 +89,6 @@ body{
     border-radius: 10px;
     color: gray;
     font-size: small;
-    
 }
 
 .spunta.negativa{
