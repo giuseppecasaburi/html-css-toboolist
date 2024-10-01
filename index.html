@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToBoolist</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <!-- Header -->
@@ -16,29 +18,44 @@
     <!-- /Header -->
 
     <div class="container">
-    <!-- Navigation -->
-    <nav>
+        <!-- Navigation -->
+        <nav>
             <button id="task" class="button">Add task</button>
             <button id="section" class="button">Add section</button>
-    </nav>
-    <!-- /Navigation -->
+        </nav>
+        <!-- /Navigation -->
 
-    <!-- Main -->
-    <main>
-        <section>
-        <table>
-            <thead>
-                <tr>
-                
-                </tr>
-            </thead>
-            <tbody></tbody>
-            
-        </table>
-        </section>
-    </main>
-    <!-- /Main -->
+        <!-- Main -->
+        <main>
+            <section>
+                <ul class="base">
+                    <li>&#9660; <strong class="importante">New task</strong>
+                        <ul>
+                            <li><span class="spunta">&#10003;</span> Quarterly Newsletter <span class="categoria editorial">Editorial</span></li>
+                        </ul>
+                    </li>
+                    <li>&#9660; <strong class="importante">Today</strong>
+                        <ul>
+                            <li><span class="spunta">&#10003;</span> Recruiting blog post <span class="categoria editorial">Editorial</span></li>
+                            <li><span class="spunta">&#10003;</span> Mobile app luaunch <span class="categoria goals">Q1 Goals</span></li>
+                            <li><span class="spunta negativa">&#10007;</span> Interview John H. <span class="categoria recruiting">Recruiting</span></li>
+                            <li><span class="spunta">&#10003;</span> Summit update to mobile storefronts <span class="categoria mobile">Mobile</span></li>
+                        </ul>
+                    </li>
+                    <li >&#9660; <strong class="importante">Upcoming</strong>
+                        <ul>
+                            <li><span class="spunta negativa">&#10007;</span> Schedule meeting with Alex</li>
+                            <li><span class="spunta">&#10003;</span> Homepage refresh <span class="categoria website">Website</span></li>
+                            <li><span class="spunta">&#10003;</span> Onboard new Sales team members <span class="categoria sales">Sales</span></li>
+                            <li><span class="spunta">&#10003;</span> Review editorial calendar <span class="categoria editorial">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- /Main -->
     </div>
 
 </body>
+
 </html>

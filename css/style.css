@@ -9,6 +9,7 @@
 /* caratteristiche comuni */
 body{
     background-color: rgb(211, 211, 211);
+    font-size: 22px;
 }
 /* /caratteristiche comuni */
 
@@ -19,6 +20,7 @@ body{
     padding: 20px 50px;
     /* debug */
     border: 2px solid rgb(255, 255, 0);
+    background-color: white;
 }
 
 .header{
@@ -40,7 +42,8 @@ body{
 
 
 .button{
-    padding: 8px 8px;
+    font-size: 22px;
+    padding: 12px 18px;
     border-radius: 5px;
     border: 0;
     
@@ -52,7 +55,60 @@ body{
 }
 
 #section{
-    color: lightgray;
-    background-color: rgb(255, 255, 255);
+    color: gray;
 }
 
+.base li{
+    list-style: none;
+}
+
+.importante{
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.spunta{
+    display: inline-block;
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    color: gray;
+    font-size: small;
+    
+}
+
+.spunta.negativa{
+    border: 1px solid red;
+    color: red;
+}
+
+.categoria{
+    padding: 4px 8px;
+    border-radius: 20px;
+    color: white;
+}
+
+.categoria.editorial{
+    background-color: rgb(0, 161, 224);
+}
+
+.categoria.goals{
+    background-color: blue;
+}
+
+.categoria.recruiting{
+    background-color: grey;
+}
+
+.categoria.mobile{
+    background-color: green;
+}
+
+.categoria.website{
+    background-color: rgb(239, 157, 171);
+}
+
+.categoria.sales{
+    background-color: yellowgreen;
+}
