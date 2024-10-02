@@ -18,8 +18,6 @@ body{
     margin-top: 40px;
     margin-bottom: 2px;
     padding: 10px 26px;
-    /* debug */
-    border: 2px olid rgb(255, 255, 0);
     background-color: white;
 }
 
@@ -29,19 +27,19 @@ body{
 }
 
 .header{
-    width: 100%;
-    height: auto;
+    padding: 10px 20px;
     background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.titolo{
-    display: inline-block;
+.header .logo,
+.header .titolo{
     vertical-align: middle;
-
 }
 
-#logo{
-    vertical-align: middle;
+.header .titolo{
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .button{
@@ -61,11 +59,12 @@ body{
 }
 
 li{
-    list-style: none;
+    margin-top: 5px;
 }
 
 ul{
     padding: 0px;
+    list-style: none;
 }
 
 .importante{
@@ -77,18 +76,16 @@ li{
     margin-bottom: 20px;
 }
 
-li.prima{
-    margin-top: 5px;
-}
-
 .spunta{
     display: inline-block;
     border: 1px solid gray;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
     color: gray;
     font-size: small;
+    line-height: 25px;
+    text-align: center;
 }
 
 .spunta.negativa{
@@ -100,6 +97,7 @@ li.prima{
     padding: 4px 8px;
     border-radius: 20px;
     color: white;
+    display: inline-block;
 }
 
 .categoria.editorial{
